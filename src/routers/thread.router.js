@@ -18,21 +18,21 @@ const threadController = require("../controllers/thread.controller.js");
 // });
 
 // threadRouter.get("/api/threads", async (req, res) => {
-//   const sessionId = req.cookies?.session_id;
+//     const sessionId = req.cookies?.session_id;
 
-//   if (!sessionId) {
-//     return res.send(
-//       "Kamu tidak memiliki session, sehingga tidak memiliki akses!"
-//     );
-//   }
+//     if (!sessionId) {
+//       return res.send(
+//         "Kamu tidak memiliki session, sehingga tidak memiliki akses!"
+//       );
+//     }
 
-//   const session = await Session.findOne({ _id: sessionId });
+//     const session = await Session.findOne({ _id: sessionId });
 
-//   if (!session) {
-//     return res.send(
-//       "Kamu tidak memiliki session, sehingga tidak memiliki akses!"
-//     );
-//   }
+//     if (!session) {
+//       return res.send(
+//         "Kamu tidak memiliki session, sehingga tidak memiliki akses!"
+//       );
+//     }
 
 //   return res.send("Ini data threads");
 // });
